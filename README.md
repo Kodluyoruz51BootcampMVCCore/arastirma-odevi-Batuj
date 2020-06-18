@@ -9,11 +9,11 @@
 6. Yazılım ile ilgili Yarışmaları araştır (Örneğin: GGJ)
 
 
+---
 
+##  Solid Prensipleri
 
-## Solid Prensipleri
-
-### Single Responsibility Principle
+#### Single Responsibility Principle
 Single responsibility prensibi sınıflarımızın iyi tanımlanmış tek bir sorumluluğu olması gerektiğini anlatmaktadır. Bir sınıf (nesne) 
 yalnızca bir amaç uğruna değiştirilebilir, o amaçta o sınıfa yüklenen sorumluluktur, yani bir sınıfın yapması gereken yalnızca bir işi
 olması gerekir.
@@ -21,26 +21,26 @@ Eğer geliştirdiğiniz sınıf ya da fonksiyon birden fazla amaca hizmet ediyor
 anlamına geliyor. Bunu farkettiğinizde amaçlara uygun olarak parçalamanız gerekmektedir.
 
 
-### Open / Closed Principle Principle
+#### Open / Closed Principle Principle
 Sınıflarımız değişikliğe kapalı ancak yeni davranışların eklenmesine açık olmalı. Geliştirdiğimiz yazılıma/sınıfa varolan kodu 
 değiştirmeden, yeni kod yazılarak yeni özellikler eklenebilmelidir. Yeni bir gereksinim geldiğinde mevcut kod üzerinde herhangi bir 
 değişiklik yapıyorsanız, open/closed prensibine ters düşüp düşmediğinizi kontrol etmenizde yarar var. Yazılımı geliştirirken gelecekte
 oluşabilecek özellikler ve geliştirmeleri her şeyiyle öngöremeyiz. O yüzden oluşabileceğini düşündüğümüz kodlarıda şimdiden 
 geliştirmemeliyiz.
 
-### Liskov Substituon Principle 
+#### Liskov Substituon Principle 
 
 Türeyen sınıf yani alt sınıflar ana(üst) sınıfın tüm özelliklerini ve metotlarını aynı işlevi gösterecek şekilde kullanabilme ve kendine 
 ait yeni özellikler barındırabilmelidir
 
-### Interface Segregation Principle
+#### Interface Segregation Principle
 
 Sorumlulukların hepsini tek bir arayüze toplamak yerine daha özelleştirilmiş birden fazla arayüz oluşturmayı tercih etmemizi söyleyen 
 prensiptir. Tek bir interface yerine kullanımlarına göre parçalanmış birden fazla interface ile işlemleri yürütmeliyiz. Yani her farklı 
 sorumluluğun kendine özgü bir arayüzü olması gerekmektedir. Böylece interface’i kullanan kişide sadece ihtiyacı olanlarla ilgilenmiş 
 olur. 
 
-### Dependency Inversion Principle
+#### Dependency Inversion Principle
 
 Sınıflar arası bağımlılıklar olabildiğince az olmalıdır özellikle üst seviye sınıflar alt seviye sınıflara bağımlı olmamalıdır. Bir 
 sınıfın, metodun ya da özelliğin, onu kullanan diğer sınıflara karşı olan bağımlılığı en aza indirgenmelidir. Bir alt sınıfta yapılan 
@@ -48,7 +48,7 @@ değişiklikler üst sınıfları etkilememelidir. Dependency Inversion, yani ü
 her ikisi de soyut kavramlar üzerinden yönetilebilmelidir.
 
 
-### Yazılım Yarışmalar 
+###  Yazılım Yarışmalar 
 USOM tarafından düzenlenen Siber Yıldız :
 Ulusal Siber Olaylara Müdahale Merkezinin düzenlediği bir capture the flag siber güvenlik yarışması.Bizde 3 kişilik bir takım olarak 
 katıldık daha sonrasında kazananlar Siber Talimhaneye davet edildi.Siber güvenlik alanıyla ilgilenen kişilerin keşfedilmesi ve 
